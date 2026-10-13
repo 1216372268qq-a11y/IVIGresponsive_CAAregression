@@ -1,0 +1,34 @@
+{
+  "model": "Final 7-predictor Cox Model B",
+  "endpoint": "Complete CAA regression (all coronary segments Z < 2)",
+  "times_months": [
+    12,
+    24,
+    36
+  ],
+  "coefficients": {
+    "month": -0.0083572788678495,
+    "BMI": -0.0831598591357105,
+    "PLT": -0.0011942861900114,
+    "ESR": -0.006836756264768,
+    "ALB": -0.0284019814410889,
+    "Fib": 0.156966784704552,
+    "CAA_sizesMedium": -0.683723507489723,
+    "CAA_sizesGiant": -4.21881913174733
+  },
+  "continuous_reference_means": {
+    "month": 31.794117647058822,
+    "BMI": 15.614112166269608,
+    "PLT": 407.3647058823529,
+    "ESR": 47.57107843137255,
+    "ALB": 37.68921568627451,
+    "Fib": 4.325098039215686
+  },
+  "baseline_survival": {
+    "12": 0.210683240929561,
+    "24": 0.0829634511259485,
+    "36": 0.0280118177313752
+  },
+  "factor_reference": "Small",
+  "centering_note": "Continuous predictors centered using coxph sample means; factor indicators uncentered."
+}
